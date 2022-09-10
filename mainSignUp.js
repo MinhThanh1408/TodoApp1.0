@@ -167,6 +167,6 @@ formSignUp.addEventListener("submit", function (e) {
     storeAccount.email = userEmail.value;
     storeAccount.password = userPassword.value;
     setAccountUser(storeAccount);
-    window.location.href = "http://127.0.0.1:5500/SignIn.html";
+    window.location.href = "https://minhthanh1408.github.io/TodoApp1.0/SignIn.html";
   }
 });
