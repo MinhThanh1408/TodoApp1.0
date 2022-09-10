@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="TodoList.css">
+    
+</head>
+<body>
+    <div id="main">
+        <div id="menu">
+            <ul>
+                <li id="icon"><i class="fa-sharp fa-solid fa-user-tie"></i></li>
+                <li id="userName"><span>Name of Account</span></li>
+                <li><button id="buttonLogOut">Log out</li>
+            </ul>
+        </div>
+        <div id="content">
+            <div>
+                <h3>Design Task</h3>
+                <div id="input-container">
+                    <input type="text" id="input-Task" placeholder="Enter new task">
+                    <i class="fa-solid fa-plus" id="addTask"></i>
+                </div>
+                <div>
+                    <h3>Your Task</h3>
+                    <ul id="list-task">
+                        <li class="task-element">
+                           <span>Đây là task 1</span>
+                        <i class="fa-sharp fa-solid fa-trash" id="delete"></i>
+                        <i class="fa-sharp fa-solid fa-pen-to-square" id="edit"></i>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="TodoList.js"></script>
+</html>

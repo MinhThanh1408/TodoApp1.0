@@ -1,0 +1,158 @@
+body{
+    background: linear-gradient(120deg, #9b408f, #3ca7ee);
+    overflow: hidden;
+}
+
+#main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#menu{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px;
+    width: 280px;
+    max-width: 280px;
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    margin: 0px;
+}
+#menu ul li{
+    padding: 10px 10px 2px 10px;
+    font-weight: 600;
+    color: darkblue;
+}
+
+#menu ul li#userName{
+    min-width: 115px;
+    max-width: 115px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#menu ul li#icon{
+    padding: 0px 10px;
+}
+
+#menu ul li i{
+    font-weight: 600px;
+    font-size: 30px;
+    margin: 0px;
+}
+
+#menu ul li button{
+    font-weight: 600;
+    color: #c03a3a;
+    border-radius: 5px;
+    border-color: purple;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#content{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 280px;
+    max-width: 280px;
+    max-height: 400px;
+
+}
+#content h3{
+    margin: 5px;
+    text-align: center;
+    font-size: 1rem;
+    color: #c03a3a; 
+}
+#content div#input-container{
+    display: flex;
+    justify-content: center;
+}
+
+#content div#input-container input[type='text']{
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    color: darkblue;
+    border-radius: 5px;
+    border-color: lightblue;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-right: 5px;
+}
+#content input[type='text']:focus{
+    width: 80%;
+}
+
+#content div#input-container i{
+    padding: 5px;
+}
+#content div#input-container i:hover{
+    color: #c03a3a;
+}
+
+#content div#input-container i:focus{
+    color: blue;
+}
+
+#content ul#list-task{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    max-height: 200px;
+    overflow: auto;
+}
+
+li.task-element{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px;
+    font-size: 10px;
+    font-weight: 600;
+    border: 1px solid lightblue;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+li.task-element span{
+    font-size: 15px;
+    padding: 5px 15px 5px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+}
+li.task-element i{
+    display: block;
+    position: relative;
+    background-color: aliceblue;
+    border: none;
+    padding: 5px;
+}
+li.task-element i:hover{
+    color: #c03a3a;
+}
+

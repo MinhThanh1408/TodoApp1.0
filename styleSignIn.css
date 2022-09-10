@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(120deg, #3ca7ee, #9b408f);
+    overflow: hidden;
+}
+
+#main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.form{
+    width: 360px;
+    min-height: 100px;
+    padding: 32px 24px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    margin: 24px;
+    align-self: center;
+    box-shadow: 0 2px 5px 0 rgba(51, 62 ,73, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.heading{
+    font-size: 2rem;
+    color: #c03a3a;
+}
+label {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form-group input[type="text"],input[type="password"]{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: darkblue;
+    border-radius: 5px;
+    border-color: lightblue;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.form-group .checkbox-options{
+    padding-bottom: 10px ;
+}
+.form-group .checkbox-text{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.form-submit{
+    color: #c03a3a;
+    font-size: 2em;
+    font-weight: 600;
+    width: 65%;
+    padding: 15px 0px;
+    border-radius: 5px;
+    border-color: orange;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group.error .form-message {
+    color: #f33a58;
+    font-weight: 600;
+}
+.footer{
+    padding-top: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}

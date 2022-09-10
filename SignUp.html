@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormSignUp</title>
+    <link rel="stylesheet" href="styleSignUp.css">
+</head>
+
+<body onload="reloadData()">
+    <div id="main">
+        <form action="" method="post" class="form" id="form-SignUp">
+            <h3 class="heading">Sign up</h3>
+            <div class="form-group">
+                <input type="text" id="user-email" name="user-email" placeholder="Email">
+                <p class="form-message"></p>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="user-name" name="user-name" placeholder="Name">
+                <p class="form-message"></p>
+            </div>
+
+            <div class="form-group">
+                <input type="password" id="user-password" name="user-password" placeholder="Password">
+                <p class="form-message"></p>
+
+            </div>
+
+            <div class="form-group">
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password">
+                <p class="form-message"></p>
+            </div>
+
+            <div class="form-group">
+                <div class="radio-container">
+                    <div>
+                        <input type="radio" value="Male" class="radio-options" name="gender" id="male">
+                        <span class="radio-text">Male</span>
+                    </div>
+                    <div>
+                        <input type="radio" value="Female" class="radio-options" name="gender" id="female">
+                        <span class="radio-text">Female</span>
+                    </div>
+                    <div>
+                        <input type="radio" value="Orther" class="radio-options" name="gender" id="orther">
+                        <span class="radio-text">Orther</span>
+                    </div>
+                </div>
+                <p class="form-message"></p>
+            </div>
+
+            <div>
+                <button class="form-submit">Sign up</button>
+            </div>
+            <div class="footer">
+                <a href="http://127.0.0.1:5500/SignIn.html">Sign in?</a>
+            </div>
+        </form>
+
+
+    </div>
+</body>
+<script src="mainSignUp.js"></script>
+</html>
